@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEO CARE | النظام الذكي لإدارة الرعاية الصحية</title>
+  <!-- تحميل Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- استخدام خط القاهرة لدعم اللغة العربية بشكل احترافي -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Cairo', sans-serif; }
+    /* إضافة حركة بسيطة عند ظهور العناصر */
+    @keyframes fadeInSlideUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-in { animation: fadeInSlideUp 0.8s ease-out forwards; opacity: 0; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- شريط العنوان الرئيسي -->
+  <header class="bg-gradient-to-r from-blue-700 to-teal-500 py-12 shadow-2xl">
+    <div class="max-w-6xl mx-auto px-6 text-center animate-in" style="animation-delay: 0s;">
+      <h1 class="text-6xl font-extrabold text-white mb-3">
+        🩺 NEO CARE
+      </h1>
+      <p class="text-xl font-light text-blue-100">
+        النظام الذكي لإدارة الرعاية الصحية
+      </p>
+      <div class="mt-4 inline-block bg-white text-blue-700 font-bold px-4 py-1 rounded-full text-sm shadow-lg">
+        منصة ذكية مصرية ضمن رؤية مصر الرقمية 2030
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto p-6 md:p-12">
+
+    <!-- 1. خلفية المشكلة والتحديات -->
+    <section class="mb-16 bg-white p-8 rounded-2xl shadow-xl border-r-4 border-red-500 animate-in" style="animation-delay: 0.2s;">
+      <h2 class="text-3xl font-bold text-red-600 mb-6 flex items-center">
+        <svg class="w-8 h-8 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.3 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+        خلفية المشكلة والتحديات
+      </h2>
+      <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+        تواجه المستشفيات المصرية تحديات متعددة يوميًا تؤثر على جودة الرعاية الطبية المقدمة، مما يخلق فجوة بين التكنولوجيا والطب.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <ul class="space-y-4">
+          <li class="flex items-start text-gray-700">
+            <span class="text-red-500 font-extrabold text-2xl ml-3">1.</span>
+            <div>الاعتماد الكبير على الملفات الورقية وصعوبة الوصول للمعلومات.</div>
+          </li>
+          <li class="flex items-start text-gray-700">
+            <span class="text-red-500 font-extrabold text-2xl ml-3">2.</span>
+            <div>ضغط المرضى والزحام داخل العيادات والطوارئ.</div>
+          </li>
+          <li class="flex items-start text-gray-700">
+            <span class="text-red-500 font-extrabold text-2xl ml-3">3.</span>
+            <div>قلة الكوادر الطبية مقارنة بعدد الحالات اليومية.</div>
+          </li>
+        </ul>
+        <ul class="space-y-4">
+          <li class="flex items-start text-gray-700">
+            <span class="text-red-500 font-extrabold text-2xl ml-3">4.</span>
+            <div>ضعف التواصل المستمر بين الطبيب والمريض بعد الزيارة.</div>
+          </li>
+          <li class="flex items-start text-gray-700">
+            <span class="text-red-500 font-extrabold text-2xl ml-3">5.</span>
+            <div>نقص الأنظمة الرقمية المتكاملة لإدارة العمليات الطبية.</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 2. فكرة NEO CARE -->
+    <section class="mb-16 bg-blue-50 p-8 rounded-2xl shadow-xl border-l-4 border-blue-600 animate-in" style="animation-delay: 0.4s;">
+      <h2 class="text-3xl font-bold text-blue-700 mb-6 flex items-center">
+        <svg class="w-8 h-8 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+        💡 فكرة NEO CARE
+      </h2>
+      <p class="text-lg text-gray-700 leading-relaxed mb-4">
+        هو نموذج ذكي مصمم لربط كل عناصر المنظومة الصحية في نظام واحد متكامل، معتمدًا على الذكاء الاصطناعي لتحليل البيانات والتنبيه للمخاطر.
+      </p>
+      <ul class="space-y-3 text-gray-700 list-disc pr-5 marker:text-blue-500">
+        <li>يتيح للأطباء إدارة الحالات وتشخيص الأعراض بدقة باستخدام AI.</li>
+        <li>يمكّن المرضى من متابعة حالتهم وجدولة مواعيدهم بسهولة.</li>
+        <li>يساعد الإدارة في مراقبة الأداء وجودة الخدمات في الوقت الفعلي.</li>
+      </ul>
+    </section>
+
+    <!-- 3. أبرز مميزات NEO CARE -->
+    <section class="mb-16 bg-teal-50 p-8 rounded-2xl shadow-xl animate-in" style="animation-delay: 0.6s;">
+      <h2 class="text-3xl font-bold text-teal-700 mb-8 text-center">
+        🌟 أبرز مميزات NEO CARE
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="text-4xl text-blue-600 mb-3">🤖</div>
+          <h3 class="text-xl font-semibold mb-2">تشخيص ذكي</h3>
+          <p class="text-gray-600">تحليل آلي للأعراض ودعم للقرار الطبي.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="text-4xl text-teal-600 mb-3">📋</div>
+          <h3 class="text-xl font-semibold mb-2">إدارة رقمية متكاملة</h3>
+          <p class="text-gray-600">للملفات الطبية والمواعيد إلكترونيًا.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="text-4xl text-amber-600 mb-3">💊</div>
+          <h3 class="text-xl font-semibold mb-2">تذكير بالأدوية</h3>
+          <p class="text-gray-600">وجدولة العلاج والمتابعة المستمرة للمريض.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="text-4xl text-indigo-600 mb-3">📈</div>
+          <h3 class="text-xl font-semibold mb-2">مؤشرات أداء لحظية</h3>
+          <p class="text-gray-600">لوحات تحكم تفاعلية للإدارة والمراقبة.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="text-4xl text-gray-600 mb-3">🔐</div>
+          <h3 class="text-xl font-semibold mb-2">أمن متقدم</h3>
+          <p class="text-gray-600">نظام أمني لحماية بيانات المرضى وسريتها.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300">
+          <div class="text-4xl text-green-600 mb-3">🧠</div>
+          <h3 class="text-xl font-semibold mb-2">دعم القرار الطبي</h3>
+          <p class="text-gray-600">الذكاء الاصطناعي كمساعد للطبيب.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. الأهمية الوطنية والتأثير على مصر -->
+    <section class="mb-16 bg-gradient-to-l from-green-50 to-white p-8 rounded-2xl shadow-xl border-l-4 border-green-700 animate-in" style="animation-delay: 0.8s;">
+      <h2 class="text-3xl font-bold text-green-700 mb-6 flex items-center">
+        <svg class="w-8 h-8 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9h6"></path></svg>
+        🇪🇬 الأهمية الوطنية وتأثيره على مصر
+      </h2>
+      <p class="text-lg text-gray-700 leading-relaxed mb-6 font-semibold">
+        يهدف المشروع إلى دعم التحول الرقمي في قطاع الصحة المصري بما يتماشى مع استراتيجية الدولة ورؤية مصر 2030.
+      </p>
+      <ul class="space-y-3 text-gray-700 list-disc pr-5 marker:text-green-500">
+        <li>تحويل العمليات الطبية والإدارية إلى منظومة رقمية سهلة الاستخدام.</li>
+        <li>إنشاء قاعدة بيانات طبية مصرية موحدة تسهّل اتخاذ القرار الصحي.</li>
+        <li>تقليل الضغط على الكوادر الطبية وخفض التكاليف الإدارية والورقية.</li>
+        <li>تسهيل وصول المريض إلى الخدمات دون عناء أو تأخير.</li>
+        <li>تحقيق التكامل بين المستشفيات العامة والخاصة ضمن قاعدة واحدة.</li>
+      </ul>
+    </section>
+
+    <!-- 5. فكرة فريدة ورؤية مختلفة -->
+    <section class="mb-16 p-8 rounded-2xl shadow-inner bg-yellow-50 animate-in" style="animation-delay: 1.0s;">
+      <h2 class="text-3xl font-bold text-yellow-700 mb-6 text-center flex justify-center items-center">
+        <svg class="w-8 h-8 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m13.364 1.636l-.707-.707M6.343 5.636l-.707.707m12.728 9.728l-1.414 1.414M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+        🚀 فكرة فريدة ورؤية مختلفة
+      </h2>
+      <p class="text-xl text-gray-700 leading-relaxed text-center font-medium">
+        ما يجعل NEO CARE مشروعًا فريدًا هو أنه يقدّم فكر جديد يعتمد على الدمج بين التقنية والإنسان.
+      </p>
+      <div class="mt-4 text-center">
+        <span class="inline-block bg-yellow-200 text-yellow-900 px-5 py-2 rounded-lg font-bold">
+          الذكاء الاصطناعي "مساعدًا للطبيب" ، وليس بديلًا عنه.
+        </span>
+      </div>
+    </section>
+
+    <!-- 6. مستقبل المشروع وتوسعه -->
+    <section class="mb-16 bg-gray-100 p-8 rounded-2xl shadow-xl border-t-4 border-gray-600 animate-in" style="animation-delay: 1.2s;">
+      <h2 class="text-3xl font-bold text-gray-700 mb-6 flex items-center">
+        <svg class="w-8 h-8 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0h6"></path></svg>
+        🔮 مستقبل المشروع وتوسعه
+      </h2>
+      <p class="text-lg text-gray-700 leading-relaxed mb-6 italic">
+        النسخة الحالية من NEO CARE هي نموذج تجريبي (Demo) قابل للتطوير ليشمل رؤى مستقبلية واسعة:
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <ul class="space-y-3 text-gray-700 list-disc pr-5 marker:text-blue-500">
+          <li>تحليل صور الأشعة والتحاليل باستخدام تقنيات الرؤية الحاسوبية.</li>
+          <li>نظام ذكاء اصطناعي للتنبؤ بالحالات الحرجة قبل حدوثها.</li>
+          <li>تطبيق موبايل للمريض يتكامل مع النظام لتتبع الحالة الصحية.</li>
+        </ul>
+        <ul class="space-y-3 text-gray-700 list-disc pr-5 marker:text-blue-500">
+          <li>ربط المستشفيات الحكومية والخاصة بشبكة وطنية موحدة.</li>
+          <li>دمج النظام مع منصات التأمين الصحي الإلكتروني.</li>
+          <li>توفير قاعدة بيانات طبية وطنية تساعد متخذي القرار في التخطيط الصحي.</li>
+        </ul>
+      </div>
+      <!-- الجملة المميزة الجديدة -->
+      <div class="mt-8 pt-4 border-t-2 border-gray-300 text-center">
+        <p class="text-xl font-extrabold text-blue-700 bg-white p-3 rounded-lg shadow-md inline-block">
+          باختصار سيتم تحويل التطبيق من DEMO الي تطبيق حقيقي منظم
+        </p>
+      </div>
+    </section>
+
+    <!-- 7. دعوة للتطوير والتبني -->
+    <section class="text-center bg-blue-700 text-white p-8 rounded-2xl shadow-2xl animate-in" style="animation-delay: 1.4s;">
+      <h2 class="text-3xl font-extrabold mb-4">📣 دعوة للتطوير والتبني</h2>
+      <p class="text-lg mb-6 max-w-3xl mx-auto font-light">
+        NEO CARE ليس مجرد فكرة جامعية أو مشروع بحثي، بل هو نواة يمكن أن تتحول إلى مشروع وطني متكامل.
+      </p>
+      <!-- تم حذف "الجامعات المصرية" من الشراكة هنا -->
+      <p class="text-xl font-bold bg-white text-blue-700 inline-block px-6 py-3 rounded-full shadow-inner">
+        الشراكة بين: وزارة الصحة - شركات التكنولوجيا المحلية
+      </p>
+    </section>
+
+    <!-- 8. زر البداية والخطوة التالية (مضاف بناءً على طلب المستخدم) -->
+    <section class="mt-12 mb-12 text-center animate-in" style="animation-delay: 1.6s;">
+      <a 
+        href="Data/Html/PEP.HTML" 
+        class="inline-block bg-pink-600 text-white text-2xl font-extrabold py-4 px-12 rounded-full shadow-2xl 
+               hover:bg-pink-700 transition duration-300 transform hover:scale-105 
+               focus:outline-none focus:ring-4 focus:ring-pink-500 focus:ring-opacity-50"
+      >
+        ابدأ الآن 🚀
+      </a>
+      <p class="text-gray-500 mt-3 text-sm">
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="text-center py-6 mt-12 text-gray-500 text-sm border-t border-gray-200">
+    © 2025 NEO CARE | مشروع رؤية للتحول الرقمي في قطاع الرعاية الصحية
+  </footer>
+
+</body>
+
+
+</html>
